@@ -175,8 +175,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 font-style: italic;
 text-shadow: #000000 2px 4px 3px;
 }
-.references {
-  background-color: #E8E5E0;
+.ref{
   padding: 30px;
   text-align: left;
   margin-left: -10px;
@@ -184,6 +183,7 @@ text-shadow: #000000 2px 4px 3px;
   height: 100%;
   font-family: 'lucida sans';
   line-height: 25px;
+  background-image: url(memberbg.jpeg);
 }
 
 body {
