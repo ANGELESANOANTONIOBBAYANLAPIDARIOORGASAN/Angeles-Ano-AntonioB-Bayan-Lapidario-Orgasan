@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            LITERATURA
+        </title>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="com.css">
+        </head>
+        <link rel="stylesheet" href="style.css">
+        <div class="Nav">
+          <ul>
+            <li id="titlenav"><b>LITERATURA: Literature Blog by Group </b> <span style="text-align: left;">
+                        <li> <a href="homepage.html"> Home</li></a>
+          <div class="dropdown">
+            <button class="drop">Literary Analyses
+          
+            </button>
+            <div class="dropdown-options">
+              <a href="aa.html">Love Like You</a>
+              <a href="bb.html">The Joker And The Queen</a>
+              <a href="db.html">I Sit Beside the Fire and Think</a>
+              <a href="al.html">Mirror</a>
+              <a href="eo.html">Ikaw Pala</a>
+              <a href="ja.html">Little Women</a>
+            </div>
+          </div>
+          <li><a href="forum.html">Forum</a></li>
+          <li><a href="members.html">Contact us!</a></li>
+          <li><a href="references.html">References</a></li>
+        </span>
+        </ul>
+        </div>
+        <body>
+          <div class="player">
+            <h1 class="song-title" style="color: aliceblue;">&nbsp; Mirror &nbsp;&nbsp;</h1>
+                 <audio id="audio" src=".mp3"></audio>
+                 <button id="playBtn" class="btn">Play</button>
+                 <button id="pauseBtn" class="btn">Pause</button>
+             </div>
+             <script>
+               const audio = document.getElementById('audio');
+               const playBtn = document.getElementById('playBtn');
+               const pauseBtn = document.getElementById('pauseBtn');
+
+               playBtn.addEventListener('click', () => {
+                   audio.play();
+               });
+
+               pauseBtn.addEventListener('click', () => {
+                   audio.pause();
+               });
+           </script>
+
+          <img src="al1.png" style="width: 100%;height: 100%;margin-top: 30px;">
+          <img src="al2.png" style="width: 100%;height: 100%;;margin-top: -5px;">
+
+          </body>
+
+          </html>
