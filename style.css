@@ -184,6 +184,7 @@ text-shadow: #000000 2px 4px 3px;
   font-family: 'lucida sans';
   line-height: 25px;
   background-image: url(memberbg.jpeg);
+  font-size: 20px;
 }
 
 body {
